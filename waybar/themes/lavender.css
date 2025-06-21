@@ -10,9 +10,9 @@
 /* @import "theme.css"; */
 
 window#waybar {
-    background: rgba(20, 20, 32, 0.7); /* фон бара */
-    border-radius: 30px;
-    border: 0px solid rgba(184, 180, 254, 0.95);
+    background: rgba(30, 30, 48, 0.7); /* фон бара */
+    border-radius: 7px;
+    border: 3px solid rgba(20, 20, 32, 0.5);
 }
 
 tooltip {
@@ -26,7 +26,7 @@ tooltip {
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
-    border-radius: 30px;
+    border-radius: 7px;
     margin-top: 4px;
     margin-bottom: 4px;
     margin-left: 0px;
@@ -59,7 +59,7 @@ tooltip {
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
-    border-radius: 12px;
+    border-radius: 7px;
     margin-top: 4px;
     margin-bottom: 4px;
     margin-left: 0px;
@@ -154,13 +154,13 @@ tooltip {
 }
 
 #custom-r_end {
-    border-radius: 0px 30px 30px 0px;
+    border-radius: 0px 7px 7px 0px;
     margin-right: 12px;
     padding-right: 4px;
 }
 
 #custom-l_end {
-    border-radius: 30px 0px 0px 30px;
+    border-radius: 7px 0px 0px 7px;
     margin-left: 12px;
     padding-left: 4px;
 }
@@ -178,13 +178,13 @@ tooltip {
 }
 
 #custom-rr_end {
-    border-radius: 0px 30px 30px 0px;
+    border-radius: 0px 7px 7px 0px;
     margin-right: 12px;
     padding-right: 4px;
 }
 
 #custom-rl_end {
-    border-radius: 30px 0px 0px 30px;
+    border-radius: 7px 0px 0px 7px;
     margin-left: 12px;
     padding-left: 4px;
 }
